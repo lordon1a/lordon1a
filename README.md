@@ -1,21 +1,20 @@
 <!-- lordon1a/lordon1a — GitHub profile README -->
-<!-- TODO: YOUTUBE_HANDLE, X_HANDLE ve EMAIL yer tutucularını gerçek bilgilerle değiştir. -->
 
 <p align="center">
   <img src="banner.svg" alt="Yiğit Güldal — economics, data and software, built under the sun" width="100%">
 </p>
 
 <p align="center">
-  <a href="https://guldal.me"><b>Website</b></a> &nbsp;/&nbsp;
+  <a href="https://guldal.me"><b>Guldal Labs</b></a> &nbsp;/&nbsp;
+  <a href="https://ozgecmis.guldal.me"><b>Portfolio</b></a> &nbsp;/&nbsp;
   <a href="https://radio.guldal.me"><b>Radio</b></a> &nbsp;/&nbsp;
   <a href="https://link.guldal.me"><b>Links</b></a> &nbsp;/&nbsp;
-  <a href="https://youtube.com/@YOUTUBE_HANDLE"><b>YouTube</b></a> &nbsp;/&nbsp;
-  <a href="https://x.com/X_HANDLE"><b>X</b></a> &nbsp;/&nbsp;
-  <a href="https://www.linkedin.com/in/yigit-guldal"><b>LinkedIn</b></a> &nbsp;/&nbsp;
-  <a href="mailto:EMAIL"><b>Get in touch</b></a>
+  <a href="https://www.linkedin.com/in/yigitguldal/"><b>LinkedIn</b></a> &nbsp;/&nbsp;
+  <a href="mailto:hello@guldal.me"><b>Get in touch</b></a> &nbsp;/&nbsp;
+  <a href="https://github.com/sponsors/lordon1a"><b>💛 Sponsor</b></a>
 </p>
 
-I'm **Yiğit Güldal**, a.k.a. **lordon1a**. I study economics at Anadolu University and build software where markets, data and systems meet — from server-security plugins in Java to a real-time CRM in Flask, plus a few sunny experiments on the web.
+I'm **Yiğit Güldal**, a.k.a. **lordon1a**. I study economics at Anadolu University and run [**Guldal Labs**](https://github.com/guldal-labs), a one-person studio. I build software where markets, data and systems meet — from AI coding-agent tools and a real-time CRM to server-security plugins in Java, plus a few sunny experiments on the web. Most of it is shipped with a team of AI coding agents that I orchestrate.
 
 I care about tools that make complex systems legible: **who can see what, which signals matter, and how data becomes a decision.** Some of my work is open source; the rest is private, but you'll find what it does below.
 
@@ -24,14 +23,30 @@ I care about tools that make complex systems legible: **who can see what, which 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <sub><b>01 / SERVER SECURITY</b></sub>
+      <sub><b>01 / AI DEV TOOLS</b></sub>
+      <h3><a href="https://github.com/lordon1a/foxpit">Foxpit</a></h3>
+      A desktop cockpit for running Claude Code, Codex and OpenCode agents side by side: real terminals, a 3D office that shows what every agent is doing, approval alerts and per-agent git worktrees. Local-only.
+      <br><br>
+      <a href="https://github.com/lordon1a/foxpit">See the cockpit →</a>
+    </td>
+    <td width="50%" valign="top">
+      <sub><b>02 / PRODUCT · 🔒 PRIVATE</b></sub>
+      <h3><a href="https://guldal.me/projects/portfiva">Portfiva CRM</a></h3>
+      A WhatsApp-first CRM for real-estate teams: pipelines, messaging, workflow automation and AI assistance on a modular Flask + PostgreSQL monolith.
+      <br><br>
+      <a href="https://guldal.me/projects/portfiva">Read the case study →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <sub><b>03 / SERVER SECURITY</b></sub>
       <h3><a href="https://github.com/lordon1a/SunshineCommandGuard">SunshineCommandGuard</a></h3>
       Hide commands from tab-complete, block their execution and keep your plugin list private — scoped per LuckPerms group, with an admin tool that explains every decision.
       <br><br>
       <a href="https://github.com/lordon1a/SunshineCommandGuard/releases/latest">Get the plugin →</a>
     </td>
     <td width="50%" valign="top">
-      <sub><b>02 / INVESTIGATION</b></sub>
+      <sub><b>04 / INVESTIGATION</b></sub>
       <h3><a href="https://github.com/lordon1a/SunshineSentinel">Sunshine Sentinel</a></h3>
       Turns scattered anti-cheat flags, blocked commands and world activity into one explainable risk timeline per player — and into reviewable incidents.
       <br><br>
@@ -40,14 +55,14 @@ I care about tools that make complex systems legible: **who can see what, which 
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <sub><b>03 / PRODUCT</b> · 🔒 PRIVATE</sub>
-      <h3><a href="https://guldal.me/projects/portfiva">Portfiva CRM</a></h3>
-      A WhatsApp-first CRM for real-estate teams: pipelines, messaging, workflow automation and AI assistance on a modular Flask + PostgreSQL monolith.
+      <sub><b>05 / CAMPUS</b></sub>
+      <h3><a href="https://github.com/lordon1a/Anadolu-Etkinlik">Anadolu Etkinlik</a></h3>
+      An open-source event calendar that places Anadolu University campus events on a 3D map of the campus.
       <br><br>
-      <a href="https://guldal.me/projects/portfiva">Read the case study →</a>
+      <a href="https://anadolu-etkinlik.vercel.app">Open the map →</a>
     </td>
     <td width="50%" valign="top">
-      <sub><b>04 / LIVE</b></sub>
+      <sub><b>06 / LIVE</b></sub>
       <h3><a href="https://radio.guldal.me">Sunshine Radio</a></h3>
       A shared YouTube radio in a sunlit 3D room: everyone hears the same song, votes the queue and chats — while a turntable spins on the desk.
       <br><br>
@@ -89,5 +104,9 @@ Custom GLSL shaders draw the bubbles on the client, and a Paper plugin spawns an
   <img src="https://img.shields.io/badge/Three.js-1d150e?style=flat-square&logo=threedotjs&logoColor=f5b82e" alt="Three.js">
   <img src="https://img.shields.io/badge/Docker-1d150e?style=flat-square&logo=docker&logoColor=f5b82e" alt="Docker">
 </p>
+
+## Support my work
+
+If something here saved you time, you can [**sponsor me on GitHub**](https://github.com/sponsors/lordon1a). It pays for AI model usage and servers, and buys time to turn these projects into finished releases. 💛
 
 <p align="center"><sub>☀ built under the sun in Türkiye</sub></p>
